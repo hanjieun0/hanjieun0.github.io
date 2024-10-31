@@ -6,4 +6,4 @@ Welcome to my GitHub portfolio. I am a passionate developer with expertise in [m
 
 ## 📫 Contact Me
 - **Email**: hje3321@naver.com
-- **LinkedIn**: [LinkedIn Profile](https://hanjieun.github.io)
+- **LinkedIn**: [(https://hanjieun.github.io)]
