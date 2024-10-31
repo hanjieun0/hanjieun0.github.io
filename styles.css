@@ -1,75 +1,25 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
 }
-
 
 header {
-    background-color: #4CAF50; /* 상단 배경 색 */
+    background-color: #333;
     color: #fff;
-    padding: 2rem 0;
+    padding: 1rem;
     text-align: center;
-    font-size: 2rem;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 700;
 }
 
 section {
-    padding: 4rem 1.5rem;
-    max-width: 800px;
-    margin: auto;
+    padding: 2rem;
 }
-
-#about h2,
-#projects h2 {
-    color: #4CAF50; /* 섹션 제목 색상 */
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-}
-
 
 .project {
-    background: #fff;
     border: 1px solid #ddd;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 카드 그림자 */
-    transition: transform 0.3s;
-    border-radius: 8px;
-}
-
-.project:hover {
-    transform: translateY(-5px); /* 마우스 올릴 때 움직임 */
-}
-
-.project h3 {
-    color: #4CAF50;
-    margin-top: 0;
-    font-size: 1.4rem;
-}
-
-.project a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #fff;
-    background-color: #4CAF50;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background 0.3s;
-}
-
-.project a:hover {
-    background-color: #45a049;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -77,19 +27,4 @@ footer {
     padding: 1rem;
     background-color: #333;
     color: #fff;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-header {
-    animation: fadeIn 2s ease;
-}
-
-.project {
-    animation: fadeIn 1.5s ease;
 }
