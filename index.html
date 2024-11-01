@@ -1,37 +1,41 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
-    <header>
-        <h1>Portfolio</h1>
-        <p>Welcome to HanJieun's website!</p>
 
-            <nav>
-                <div id="outer">
-                    <div clss="box">
-                        <a href="index.html">홈</a>
-                    </div>
-                <a href="about.html">소개</a>
-                <a href="projects.html">프로젝트</a>
-                </div>
-            </nav>
-                  
-       
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal website!</p>
     </header>
 
-    <section>
-        <h2>projects</h2>
-        <p>여기는 [Your Name]의 포트폴리오 페이지입니다.</p>
+    <!-- About 섹션 -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is where you write a brief introduction about yourself.</p>
     </section>
 
-    
+    <!-- Projects 섹션 -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Description of the project.</p>
+            <a href="project_link">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact 섹션 -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me on GitHub!</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>Connect with me on <a href="https://github.com/username">GitHub</a></p>
     </footer>
 </body>
-</html>
