@@ -17,6 +17,12 @@ header h1 {
     margin-bottom: 10px;
 }
 
+
+section {
+    padding: 2rem;
+}
+
+
 nav a {
     color: #ffd700;
     text-decoration: none;
